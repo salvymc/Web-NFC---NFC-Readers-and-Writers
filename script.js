@@ -25,7 +25,7 @@ async function writeNFC() {
       records: [
         {
           recordType: "url",
-          data: "https://playtag.vip/app/tag.php?tag=" + string_url,
+          data: string_url,
         },
       ],
     });
@@ -38,7 +38,6 @@ async function writeNFC() {
 }
 
 async function readNFC() {
-  ndef.destroy();
   modal.style.display = "block";
   try {
     const ndef = new NDEFReader();
