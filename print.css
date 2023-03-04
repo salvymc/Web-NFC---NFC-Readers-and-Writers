@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: unset;
+    background-color:white;
+    overflow: hidden;
+}
+
+#codice {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr {
+    display: none;
+}
+
+#scrivi {
+    display: none;
+}
+
+#copy_button {
+    display: none;
+}
+
+#genera {
+    display: none;
+}
+
+#onda_nfc {
+    filter: invert(1);
+}
+
+#container {
+    width: 300px;
+    background: white;
+    border-radius: 50px;
+    padding: 15px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: unset;
+    border: unset;
+}
+
+#onda_nfc {
+    width: 100px;
+}
+
+#site {
+    color: black;
+}
+
+#container_codice {
+    margin-top: 0px;
+    display: flex;
+}
